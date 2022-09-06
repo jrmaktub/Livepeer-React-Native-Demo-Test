@@ -48,6 +48,7 @@ export function EnterPlaybackURL() {
         <Input
           h={60}
           shadow="2xl"
+          //changed this line
           placeholder="https://livepeercdn.com/hls/{playbackId}/index.m3u8"
           defaultValue={value}
           onChangeText={setValue}
